@@ -855,3 +855,538 @@ fast = head
 - With hash map: O(n)
 
 Master these patterns, and you'll be able to solve most linked list problems efficiently!
+
+---
+
+## LeetCode Practice Problems
+
+### 📊 Problem Statistics
+- **Total Problems:** 55+
+- **Easy:** 18 problems
+- **Medium:** 25 problems
+- **Hard:** 12 problems
+- **Estimated Time:** 35-50 hours
+
+---
+
+## Easy Problems (18)
+
+### 1. Reverse Linked List
+**Link:** https://leetcode.com/problems/reverse-linked-list/  
+**Pattern:** Pointer Manipulation  
+**Topics:** Linked List, Recursion  
+**Description:** Reverse a singly linked list  
+**Why Practice:** Foundation for many linked list problems
+
+### 2. Merge Two Sorted Lists
+**Link:** https://leetcode.com/problems/merge-two-sorted-lists/  
+**Pattern:** Two Pointers  
+**Topics:** Linked List, Recursion  
+**Description:** Merge two sorted lists  
+**Why Practice:** Classic merge technique
+
+### 3. Remove Duplicates from Sorted List
+**Link:** https://leetcode.com/problems/remove-duplicates-from-sorted-list/  
+**Pattern:** Single Pass  
+**Topics:** Linked List  
+**Description:** Remove duplicate values  
+**Why Practice:** Basic list traversal and modification
+
+### 4. Linked List Cycle
+**Link:** https://leetcode.com/problems/linked-list-cycle/  
+**Pattern:** Fast and Slow Pointers  
+**Topics:** Linked List, Two Pointers, Hash Table  
+**Description:** Detect if list has cycle  
+**Why Practice:** Floyd's cycle detection algorithm
+
+### 5. Intersection of Two Linked Lists
+**Link:** https://leetcode.com/problems/intersection-of-two-linked-lists/  
+**Pattern:** Two Pointers  
+**Topics:** Linked List, Hash Table, Two Pointers  
+**Description:** Find intersection node  
+**Why Practice:** Two pointer synchronization
+
+### 6. Remove Linked List Elements
+**Link:** https://leetcode.com/problems/remove-linked-list-elements/  
+**Pattern:** Dummy Head  
+**Topics:** Linked List, Recursion  
+**Description:** Remove all nodes with value  
+**Why Practice:** Dummy head technique
+
+### 7. Palindrome Linked List
+**Link:** https://leetcode.com/problems/palindrome-linked-list/  
+**Pattern:** Fast/Slow Pointers + Reverse  
+**Topics:** Linked List, Two Pointers, Stack, Recursion  
+**Description:** Check if list is palindrome  
+**Why Practice:** Combining multiple techniques
+
+### 8. Middle of the Linked List
+**Link:** https://leetcode.com/problems/middle-of-the-linked-list/  
+**Pattern:** Fast and Slow Pointers  
+**Topics:** Linked List, Two Pointers  
+**Description:** Find middle node  
+**Why Practice:** Fast/slow pointer basics
+
+### 9. Delete Node in a Linked List
+**Link:** https://leetcode.com/problems/delete-node-in-a-linked-list/  
+**Pattern:** Node Manipulation  
+**Topics:** Linked List  
+**Description:** Delete node given only that node  
+**Why Practice:** Unique constraint handling
+
+### 10. Convert Binary Number in a Linked List to Integer
+**Link:** https://leetcode.com/problems/convert-binary-number-in-a-linked-list-to-integer/  
+**Pattern:** Traversal  
+**Topics:** Linked List, Math  
+**Description:** Convert binary linked list to integer  
+**Why Practice:** List traversal with calculation
+
+### 11. Merge In Between Linked Lists
+**Link:** https://leetcode.com/problems/merge-in-between-linked-lists/  
+**Pattern:** Pointer Manipulation  
+**Topics:** Linked List  
+**Description:** Replace part of list with another  
+**Why Practice:** Multiple pointer tracking
+
+### 12. Design Linked List
+**Link:** https://leetcode.com/problems/design-linked-list/  
+**Pattern:** Implementation  
+**Topics:** Linked List, Design  
+**Description:** Implement linked list operations  
+**Why Practice:** Understanding all operations
+
+### 13. Remove Nth Node From End of List (Can be Medium)
+**Link:** https://leetcode.com/problems/remove-nth-node-from-end-of-list/  
+**Pattern:** Two Pointers  
+**Topics:** Linked List, Two Pointers  
+**Description:** Remove nth node from end  
+**Why Practice:** Two pointer with gap
+
+### 14. Reverse Linked List II (Medium but good for practice)
+**Link:** https://leetcode.com/problems/reverse-linked-list-ii/  
+**Pattern:** Pointer Manipulation  
+**Topics:** Linked List  
+**Description:** Reverse from position m to n  
+**Why Practice:** Partial reversal technique
+
+### 15. Odd Even Linked List
+**Link:** https://leetcode.com/problems/odd-even-linked-list/  
+**Pattern:** Two Pointers  
+**Topics:** Linked List  
+**Description:** Group odd/even nodes  
+**Why Practice:** Two-list building
+
+### 16. Design HashSet (using linked list)
+**Link:** https://leetcode.com/problems/design-hashset/  
+**Pattern:** Design  
+**Topics:** Array, Hash Table, Linked List, Design  
+**Description:** Implement HashSet  
+**Why Practice:** Chaining implementation
+
+### 17. Design HashMap (using linked list)
+**Link:** https://leetcode.com/problems/design-hashmap/  
+**Pattern:** Design  
+**Topics:** Array, Hash Table, Linked List, Design  
+**Description:** Implement HashMap  
+**Why Practice:** Hash table with chaining
+
+### 18. Next Greater Node In Linked List
+**Link:** https://leetcode.com/problems/next-greater-node-in-linked-list/  
+**Pattern:** Stack + Linked List  
+**Topics:** Array, Linked List, Stack, Monotonic Stack  
+**Description:** Find next greater value  
+**Why Practice:** Combining list with stack
+
+---
+
+## Medium Problems (25)
+
+### 19. Add Two Numbers
+**Link:** https://leetcode.com/problems/add-two-numbers/  
+**Pattern:** Math + Linked List  
+**Topics:** Linked List, Math, Recursion  
+**Description:** Add two numbers represented as linked lists  
+**Why Practice:** Carry handling with lists
+
+### 20. Remove Nth Node From End of List
+**Link:** https://leetcode.com/problems/remove-nth-node-from-end-of-list/  
+**Pattern:** Two Pointers  
+**Topics:** Linked List, Two Pointers  
+**Description:** Remove nth from end in one pass  
+**Why Practice:** Two pointers with fixed gap
+
+### 21. Swap Nodes in Pairs
+**Link:** https://leetcode.com/problems/swap-nodes-in-pairs/  
+**Pattern:** Pointer Manipulation  
+**Topics:** Linked List, Recursion  
+**Description:** Swap every two adjacent nodes  
+**Why Practice:** Pair-wise operations
+
+### 22. Rotate List
+**Link:** https://leetcode.com/problems/rotate-list/  
+**Pattern:** Two Pointers  
+**Topics:** Linked List, Two Pointers  
+**Description:** Rotate list to the right by k  
+**Why Practice:** Circular list technique
+
+### 23. Partition List
+**Link:** https://leetcode.com/problems/partition-list/  
+**Pattern:** Two Lists  
+**Topics:** Linked List, Two Pointers  
+**Description:** Partition around value x  
+**Why Practice:** Building two lists
+
+### 24. Odd Even Linked List
+**Link:** https://leetcode.com/problems/odd-even-linked-list/  
+**Pattern:** Two Pointers  
+**Topics:** Linked List  
+**Description:** Group odd and even positioned nodes  
+**Why Practice:** Maintaining two sublists
+
+### 25. Reverse Linked List II
+**Link:** https://leetcode.com/problems/reverse-linked-list-ii/  
+**Pattern:** Pointer Manipulation  
+**Topics:** Linked List  
+**Description:** Reverse between positions m and n  
+**Why Practice:** Partial reversal
+
+### 26. Reorder List
+**Link:** https://leetcode.com/problems/reorder-list/  
+**Pattern:** Fast/Slow + Reverse + Merge  
+**Topics:** Linked List, Two Pointers, Stack, Recursion  
+**Description:** Reorder L0→L1→...→Ln-1→Ln to L0→Ln→L1→Ln-1→...  
+**Why Practice:** Combining multiple operations
+
+### 27. Linked List Cycle II
+**Link:** https://leetcode.com/problems/linked-list-cycle-ii/  
+**Pattern:** Fast and Slow Pointers  
+**Topics:** Linked List, Hash Table, Two Pointers  
+**Description:** Find cycle starting node  
+**Why Practice:** Floyd's algorithm extension
+
+### 28. Copy List with Random Pointer
+**Link:** https://leetcode.com/problems/copy-list-with-random-pointer/  
+**Pattern:** Hash Map / Interweaving  
+**Topics:** Linked List, Hash Table  
+**Description:** Deep copy list with random pointers  
+**Why Practice:** Complex cloning technique
+
+### 29. Sort List
+**Link:** https://leetcode.com/problems/sort-list/  
+**Pattern:** Merge Sort  
+**Topics:** Linked List, Two Pointers, Divide and Conquer, Sorting, Merge Sort  
+**Description:** Sort linked list in O(n log n)  
+**Why Practice:** Merge sort on linked list
+
+### 30. Insertion Sort List
+**Link:** https://leetcode.com/problems/insertion-sort-list/  
+**Pattern:** Insertion Sort  
+**Topics:** Linked List, Sorting  
+**Description:** Sort using insertion sort  
+**Why Practice:** Insertion in sorted list
+
+### 31. Delete the Middle Node of a Linked List
+**Link:** https://leetcode.com/problems/delete-the-middle-node-of-a-linked-list/  
+**Pattern:** Fast and Slow Pointers  
+**Topics:** Linked List, Two Pointers  
+**Description:** Remove middle node  
+**Why Practice:** Finding and deleting middle
+
+### 32. Swapping Nodes in a Linked List
+**Link:** https://leetcode.com/problems/swapping-nodes-in-a-linked-list/  
+**Pattern:** Two Pointers  
+**Topics:** Linked List, Two Pointers  
+**Description:** Swap kth node from beginning and end  
+**Why Practice:** Symmetric operations
+
+### 33. Add Two Numbers II
+**Link:** https://leetcode.com/problems/add-two-numbers-ii/  
+**Pattern:** Stack  
+**Topics:** Linked List, Math, Stack  
+**Description:** Add without reversing lists  
+**Why Practice:** Using stack for reverse order
+
+### 34. Remove Zero Sum Consecutive Nodes
+**Link:** https://leetcode.com/problems/remove-zero-sum-consecutive-nodes-from-linked-list/  
+**Pattern:** Prefix Sum + Hash Map  
+**Topics:** Linked List, Hash Table  
+**Description:** Remove sequences that sum to zero  
+**Why Practice:** Prefix sum with linked list
+
+### 35. Split Linked List in Parts
+**Link:** https://leetcode.com/problems/split-linked-list-in-parts/  
+**Pattern:** Array of Lists  
+**Topics:** Linked List  
+**Description:** Split into k consecutive parts  
+**Why Practice:** List partitioning
+
+### 36. Flatten a Multilevel Doubly Linked List
+**Link:** https://leetcode.com/problems/flatten-a-multilevel-doubly-linked-list/  
+**Pattern:** DFS / Stack  
+**Topics:** Linked List, Depth-First Search, Doubly-Linked List  
+**Description:** Flatten multilevel list  
+**Why Practice:** Handling child pointers
+
+### 37. Convert Sorted List to Binary Search Tree
+**Link:** https://leetcode.com/problems/convert-sorted-list-to-binary-search-tree/  
+**Pattern:** Divide and Conquer  
+**Topics:** Linked List, Divide and Conquer, Tree, Binary Search Tree, Binary Tree  
+**Description:** Build balanced BST from sorted list  
+**Why Practice:** List to tree conversion
+
+### 38. Design Browser History
+**Link:** https://leetcode.com/problems/design-browser-history/  
+**Pattern:** Doubly Linked List  
+**Topics:** Array, Linked List, Stack, Design, Doubly-Linked List, Data Stream  
+**Description:** Implement browser history  
+**Why Practice:** Practical doubly-linked list application
+
+### 39. LRU Cache
+**Link:** https://leetcode.com/problems/lru-cache/  
+**Pattern:** Hash Map + Doubly Linked List  
+**Topics:** Hash Table, Linked List, Design, Doubly-Linked List  
+**Description:** Implement LRU cache  
+**Why Practice:** Classic design problem
+
+### 40. Flatten Binary Tree to Linked List
+**Link:** https://leetcode.com/problems/flatten-binary-tree-to-linked-list/  
+**Pattern:** Tree to List  
+**Topics:** Linked List, Stack, Tree, Depth-First Search, Binary Tree  
+**Description:** Flatten tree to linked list  
+**Why Practice:** Tree transformation
+
+### 41. Maximum Twin Sum of a Linked List
+**Link:** https://leetcode.com/problems/maximum-twin-sum-of-a-linked-list/  
+**Pattern:** Fast/Slow + Reverse  
+**Topics:** Linked List, Two Pointers, Stack  
+**Description:** Find maximum twin sum  
+**Why Practice:** Symmetric operations
+
+### 42. Linked List Random Node
+**Link:** https://leetcode.com/problems/linked-list-random-node/  
+**Pattern:** Reservoir Sampling  
+**Topics:** Linked List, Math, Reservoir Sampling, Randomized  
+**Description:** Return random node value  
+**Why Practice:** Reservoir sampling algorithm
+
+### 43. Find the Minimum and Maximum Number of Nodes Between Critical Points
+**Link:** https://leetcode.com/problems/find-the-minimum-and-maximum-number-of-nodes-between-critical-points/  
+**Pattern:** Single Pass  
+**Topics:** Linked List  
+**Description:** Find critical point distances  
+**Why Practice:** Pattern detection in list
+
+---
+
+## Hard Problems (12)
+
+### 44. Merge k Sorted Lists
+**Link:** https://leetcode.com/problems/merge-k-sorted-lists/  
+**Pattern:** Heap / Divide and Conquer  
+**Topics:** Linked List, Divide and Conquer, Heap (Priority Queue), Merge Sort  
+**Description:** Merge k sorted linked lists  
+**Why Practice:** K-way merge with heap
+
+### 45. Reverse Nodes in k-Group
+**Link:** https://leetcode.com/problems/reverse-nodes-in-k-group/  
+**Pattern:** Pointer Manipulation  
+**Topics:** Linked List, Recursion  
+**Description:** Reverse nodes in groups of k  
+**Why Practice:** Complex reversal pattern
+
+### 46. Copy List with Random Pointer II (Design)
+**Link:** https://leetcode.com/problems/copy-list-with-random-pointer/  
+**Pattern:** Hash Map / Interweaving  
+**Topics:** Linked List, Hash Table  
+**Description:** Deep copy with O(1) space  
+**Why Practice:** Space-optimized cloning
+
+### 47. LFU Cache
+**Link:** https://leetcode.com/problems/lfu-cache/  
+**Pattern:** Hash Map + Doubly Linked List  
+**Topics:** Hash Table, Linked List, Design, Doubly-Linked List  
+**Description:** Implement LFU cache  
+**Why Practice:** More complex than LRU
+
+### 48. All O`one Data Structure
+**Link:** https://leetcode.com/problems/all-oone-data-structure/  
+**Pattern:** Hash Map + Doubly Linked List  
+**Topics:** Hash Table, Linked List, Design, Doubly-Linked List  
+**Description:** Inc, dec, getMax, getMin in O(1)  
+**Why Practice:** Advanced data structure design
+
+### 49. Design Skiplist
+**Link:** https://leetcode.com/problems/design-skiplist/  
+**Pattern:** Multi-level Linked List  
+**Topics:** Linked List, Design  
+**Description:** Implement skip list  
+**Why Practice:** Probabilistic data structure
+
+### 50. Median from Data Stream (using linked list approach)
+**Link:** https://leetcode.com/problems/find-median-from-data-stream/  
+**Pattern:** Two Heaps / Balanced Structure  
+**Topics:** Two Pointers, Design, Sorting, Heap (Priority Queue), Data Stream  
+**Description:** Find median in stream  
+**Why Practice:** Balanced structure maintenance
+
+### 51. Palindrome Linked List (O(1) space)
+**Link:** https://leetcode.com/problems/palindrome-linked-list/  
+**Pattern:** Fast/Slow + Reverse  
+**Topics:** Linked List, Two Pointers, Stack, Recursion  
+**Description:** Check palindrome with O(1) space  
+**Why Practice:** Space-optimized solution
+
+### 52. Rearrange String k Distance Apart (list-based)
+**Link:** https://leetcode.com/problems/rearrange-string-k-distance-apart/  
+**Pattern:** Greedy + Queue  
+**Topics:** Hash Table, String, Greedy, Sorting, Heap (Priority Queue), Counting  
+**Description:** Rearrange with distance k  
+**Why Practice:** Complex constraint handling (Premium)
+
+### 53. Design Phone Directory (using linked list)
+**Link:** https://leetcode.com/problems/design-phone-directory/  
+**Pattern:** Design  
+**Topics:** Array, Hash Table, Linked List, Design, Queue  
+**Description:** Implement phone directory  
+**Why Practice:** Resource management (Premium)
+
+### 54. Plus One Linked List
+**Link:** https://leetcode.com/problems/plus-one-linked-list/  
+**Pattern:** Recursion / Reverse  
+**Topics:** Linked List, Math  
+**Description:** Add one to number in list  
+**Why Practice:** Carry propagation (Premium)
+
+### 55. Remove Nth Node From End (One Pass, Hard constraints)
+**Link:** https://leetcode.com/problems/remove-nth-node-from-end-of-list/  
+**Pattern:** Two Pointers  
+**Topics:** Linked List, Two Pointers  
+**Description:** Remove with strict constraints  
+**Why Practice:** Optimal solution requirements
+
+---
+
+## Practice Progression
+
+### Week 1: Basics (Easy 1-12)
+Master fundamental operations:
+- Reversal (1)
+- Merging (2)
+- Cycle detection (4)
+- Fast/slow pointers (8)
+
+### Week 2: Intermediate Easy (Easy 13-18)
+More complex patterns:
+- Two pointer gap (13)
+- Design problems (16, 17)
+- List modification (14, 15)
+
+### Week 3-4: Medium Basics (Medium 19-30)
+Foundation medium problems:
+- Add numbers (19, 33)
+- Sorting (29, 30)
+- Complex operations (25, 26, 27)
+
+### Week 5-6: Advanced Medium (Medium 31-43)
+Complex patterns:
+- LRU Cache (39) - MUST KNOW
+- Tree/List conversion (37, 40)
+- Advanced techniques (34, 35, 36)
+
+### Week 7-8: Hard Problems (Hard 44-55)
+Challenge problems:
+- Merge k Lists (44) - Very common
+- Reverse in k-Group (45)
+- LFU Cache (47)
+- Skip List (49)
+
+---
+
+## Pattern Mastery Guide
+
+### Fast and Slow Pointers (Floyd's Algorithm)
+**Problems:** 4, 8, 27, 31
+**Key Insight:** Slow moves 1 step, fast moves 2 steps
+**Applications:**
+- Cycle detection
+- Finding middle
+- Finding cycle start
+- Palindrome checking
+
+### Dummy Head Technique
+**Problems:** 2, 6, 19, 21
+**Key Insight:** Use dummy node before head to handle edge cases
+**When to Use:**
+- Removing nodes
+- Merging lists
+- Building new lists
+
+### Two Pointers with Gap
+**Problems:** 13, 20, 32
+**Key Insight:** Maintain fixed distance between pointers
+**Applications:**
+- Remove nth from end
+- Symmetric operations
+
+### Reversal Techniques
+**Problems:** 1, 14, 25, 26, 45
+**Key Insight:** Reverse iteratively or recursively
+**Patterns:**
+- Full reversal
+- Partial reversal
+- Reversal in groups
+
+### Multi-List Operations
+**Problems:** 23, 24, 29, 44
+**Key Insight:** Maintain multiple pointers/lists
+**Applications:**
+- Partitioning
+- Grouping
+- Merging k lists
+
+---
+
+## Common Mistakes to Avoid
+
+1. **Not handling null checks:** Always check for null pointers
+2. **Losing references:** Save next node before modifying pointers
+3. **Off-by-one errors:** Carefully handle edge cases
+4. **Not using dummy head:** Makes code cleaner for many problems
+5. **Forgetting to advance pointers:** Infinite loops are common
+6. **Memory leaks:** Not freeing nodes in languages like C/C++
+
+---
+
+## Interview Tips
+
+### Must-Know Problems (Top 10)
+1. Reverse Linked List (1) - MUST KNOW
+2. Merge Two Sorted Lists (2) - MUST KNOW
+3. Linked List Cycle (4) - MUST KNOW
+4. Remove Nth From End (20) - MUST KNOW
+5. Reorder List (26) - IMPORTANT
+6. Copy List with Random Pointer (28) - IMPORTANT
+7. Sort List (29) - IMPORTANT
+8. LRU Cache (39) - MUST KNOW FOR DESIGN
+9. Merge k Sorted Lists (44) - VERY COMMON
+10. Reverse Nodes in k-Group (45) - SHOWS MASTERY
+
+### Time Allocation
+- Easy: 10-15 minutes
+- Medium: 20-30 minutes
+- Hard: 35-45 minutes
+
+### Strategy
+1. Draw diagrams - visualize pointer movements
+2. Handle edge cases - empty list, single node, two nodes
+3. Test with examples - walk through your code
+4. Discuss trade-offs - time vs space complexity
+
+---
+
+**Total Practice Time:** 35-50 hours  
+**Recommended Pace:** 5-7 problems per week  
+**Mastery Timeline:** 8-10 weeks
+
+Remember: Linked list problems are about careful pointer manipulation. Draw diagrams!
+

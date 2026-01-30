@@ -581,3 +581,546 @@ result = ''.join(chars)
 ---
 
 Remember: Arrays and strings are the foundation. Master these patterns and you'll solve 40%+ of interview problems!
+
+---
+
+## LeetCode Practice Problems
+
+### 📊 Problem Statistics
+- **Total Problems:** 65+
+- **Easy:** 20 problems
+- **Medium:** 30 problems  
+- **Hard:** 15 problems
+- **Estimated Time:** 40-60 hours
+
+---
+
+## Easy Problems (20)
+
+### 1. Two Sum
+**Link:** https://leetcode.com/problems/two-sum/  
+**Pattern:** Hash Table  
+**Topics:** Array, Hash Table  
+**Description:** Find two numbers that add up to target  
+**Why Practice:** Foundation for many array problems, teaches hash table usage
+
+### 2. Best Time to Buy and Sell Stock
+**Link:** https://leetcode.com/problems/best-time-to-buy-and-sell-stock/  
+**Pattern:** Single Pass  
+**Topics:** Array, Dynamic Programming  
+**Description:** Find maximum profit from stock prices  
+**Why Practice:** Teaches tracking min/max in single pass
+
+### 3. Contains Duplicate
+**Link:** https://leetcode.com/problems/contains-duplicate/  
+**Pattern:** Hash Set  
+**Topics:** Array, Hash Table  
+**Description:** Check if array has duplicates  
+**Why Practice:** Basic hash set application
+
+### 4. Valid Anagram
+**Link:** https://leetcode.com/problems/valid-anagram/  
+**Pattern:** Hash Map  
+**Topics:** String, Hash Table, Sorting  
+**Description:** Check if two strings are anagrams  
+**Why Practice:** String comparison techniques
+
+### 5. Valid Palindrome
+**Link:** https://leetcode.com/problems/valid-palindrome/  
+**Pattern:** Two Pointers  
+**Topics:** String, Two Pointers  
+**Description:** Check if string is palindrome  
+**Why Practice:** Two pointers from both ends
+
+### 6. Reverse String
+**Link:** https://leetcode.com/problems/reverse-string/  
+**Pattern:** Two Pointers  
+**Topics:** String, Two Pointers  
+**Description:** Reverse string in-place  
+**Why Practice:** In-place modification basics
+
+### 7. Move Zeroes
+**Link:** https://leetcode.com/problems/move-zeroes/  
+**Pattern:** Two Pointers  
+**Topics:** Array, Two Pointers  
+**Description:** Move all zeros to end  
+**Why Practice:** In-place array rearrangement
+
+### 8. Plus One
+**Link:** https://leetcode.com/problems/plus-one/  
+**Pattern:** Array Manipulation  
+**Topics:** Array, Math  
+**Description:** Add one to number represented as array  
+**Why Practice:** Carry handling in arrays
+
+### 9. Merge Sorted Array
+**Link:** https://leetcode.com/problems/merge-sorted-array/  
+**Pattern:** Two Pointers  
+**Topics:** Array, Two Pointers, Sorting  
+**Description:** Merge two sorted arrays in-place  
+**Why Practice:** Backward two pointers technique
+
+### 10. Remove Duplicates from Sorted Array
+**Link:** https://leetcode.com/problems/remove-duplicates-from-sorted-array/  
+**Pattern:** Two Pointers  
+**Topics:** Array, Two Pointers  
+**Description:** Remove duplicates in-place  
+**Why Practice:** Slow/fast pointer technique
+
+### 11. Remove Element
+**Link:** https://leetcode.com/problems/remove-element/  
+**Pattern:** Two Pointers  
+**Topics:** Array, Two Pointers  
+**Description:** Remove all instances of value  
+**Why Practice:** In-place removal pattern
+
+### 12. Implement strStr()
+**Link:** https://leetcode.com/problems/implement-strstr/  
+**Pattern:** String Matching  
+**Topics:** String, Two Pointers  
+**Description:** Find substring in string  
+**Why Practice:** Basic string search
+
+### 13. Length of Last Word
+**Link:** https://leetcode.com/problems/length-of-last-word/  
+**Pattern:** String Traversal  
+**Topics:** String  
+**Description:** Return length of last word  
+**Why Practice:** String parsing basics
+
+### 14. Longest Common Prefix
+**Link:** https://leetcode.com/problems/longest-common-prefix/  
+**Pattern:** String Comparison  
+**Topics:** String  
+**Description:** Find longest common prefix  
+**Why Practice:** Vertical scanning technique
+
+### 15. Valid Parentheses
+**Link:** https://leetcode.com/problems/valid-parentheses/  
+**Pattern:** Stack  
+**Topics:** String, Stack  
+**Description:** Check if parentheses are valid  
+**Why Practice:** Stack application (also in Ch 31)
+
+### 16. Palindrome Number
+**Link:** https://leetcode.com/problems/palindrome-number/  
+**Pattern:** Math  
+**Topics:** Math  
+**Description:** Check if number is palindrome  
+**Why Practice:** Number manipulation without string
+
+### 17. Roman to Integer
+**Link:** https://leetcode.com/problems/roman-to-integer/  
+**Pattern:** Hash Map  
+**Topics:** String, Math, Hash Table  
+**Description:** Convert Roman numeral to integer  
+**Why Practice:** Rule-based parsing
+
+### 18. Find All Numbers Disappeared in an Array
+**Link:** https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/  
+**Pattern:** Index Marking  
+**Topics:** Array, Hash Table  
+**Description:** Find missing numbers  
+**Why Practice:** In-place marking technique
+
+### 19. Third Maximum Number
+**Link:** https://leetcode.com/problems/third-maximum-number/  
+**Pattern:** Tracking Variables  
+**Topics:** Array  
+**Description:** Find third maximum distinct number  
+**Why Practice:** Tracking multiple values
+
+### 20. Intersection of Two Arrays II
+**Link:** https://leetcode.com/problems/intersection-of-two-arrays-ii/  
+**Pattern:** Hash Map  
+**Topics:** Array, Hash Table, Two Pointers, Binary Search, Sorting  
+**Description:** Find intersection allowing duplicates  
+**Why Practice:** Multiple solution approaches
+
+---
+
+## Medium Problems (30)
+
+### 21. 3Sum
+**Link:** https://leetcode.com/problems/3sum/  
+**Pattern:** Two Pointers  
+**Topics:** Array, Two Pointers, Sorting  
+**Description:** Find all unique triplets that sum to zero  
+**Why Practice:** Advanced two pointers, duplicate handling
+
+### 22. Container With Most Water
+**Link:** https://leetcode.com/problems/container-with-most-water/  
+**Pattern:** Two Pointers  
+**Topics:** Array, Two Pointers, Greedy  
+**Description:** Find max area between vertical lines  
+**Why Practice:** Greedy two pointers decision
+
+### 23. Longest Substring Without Repeating Characters
+**Link:** https://leetcode.com/problems/longest-substring-without-repeating-characters/  
+**Pattern:** Sliding Window  
+**Topics:** String, Hash Table, Sliding Window  
+**Description:** Find longest substring with unique chars  
+**Why Practice:** Classic sliding window with hash table
+
+### 24. Longest Palindromic Substring
+**Link:** https://leetcode.com/problems/longest-palindromic-substring/  
+**Pattern:** Expand Around Center  
+**Topics:** String, Dynamic Programming  
+**Description:** Find longest palindromic substring  
+**Why Practice:** Expand from center technique
+
+### 25. String to Integer (atoi)
+**Link:** https://leetcode.com/problems/string-to-integer-atoi/  
+**Pattern:** String Parsing  
+**Topics:** String, Math  
+**Description:** Implement atoi function  
+**Why Practice:** Edge case handling, parsing
+
+### 26. ZigZag Conversion
+**Link:** https://leetcode.com/problems/zigzag-conversion/  
+**Pattern:** String Manipulation  
+**Topics:** String  
+**Description:** Convert string to zigzag pattern  
+**Why Practice:** 2D pattern in 1D array
+
+### 27. Product of Array Except Self
+**Link:** https://leetcode.com/problems/product-of-array-except-self/  
+**Pattern:** Prefix/Suffix Product  
+**Topics:** Array, Prefix Sum  
+**Description:** Product except current element  
+**Why Practice:** Prefix/suffix array technique
+
+### 28. Rotate Image
+**Link:** https://leetcode.com/problems/rotate-image/  
+**Pattern:** Matrix Manipulation  
+**Topics:** Array, Math, Matrix  
+**Description:** Rotate matrix 90 degrees  
+**Why Practice:** In-place matrix transformation
+
+### 29. Spiral Matrix
+**Link:** https://leetcode.com/problems/spiral-matrix/  
+**Pattern:** Matrix Traversal  
+**Topics:** Array, Matrix, Simulation  
+**Description:** Return elements in spiral order  
+**Why Practice:** Boundary tracking in traversal
+
+### 30. Jump Game
+**Link:** https://leetcode.com/problems/jump-game/  
+**Pattern:** Greedy  
+**Topics:** Array, Dynamic Programming, Greedy  
+**Description:** Check if can reach last index  
+**Why Practice:** Greedy approach to reachability
+
+### 31. Minimum Window Substring
+**Link:** https://leetcode.com/problems/minimum-window-substring/  
+**Pattern:** Sliding Window  
+**Topics:** String, Hash Table, Sliding Window  
+**Description:** Find minimum window containing all characters  
+**Why Practice:** Advanced sliding window with two hash maps
+
+### 32. Subarray Sum Equals K
+**Link:** https://leetcode.com/problems/subarray-sum-equals-k/  
+**Pattern:** Prefix Sum + Hash Map  
+**Topics:** Array, Hash Table, Prefix Sum  
+**Description:** Count subarrays with sum K  
+**Why Practice:** Prefix sum with hash map technique
+
+### 33. Find All Anagrams in a String
+**Link:** https://leetcode.com/problems/find-all-anagrams-in-a-string/  
+**Pattern:** Sliding Window  
+**Topics:** String, Hash Table, Sliding Window  
+**Description:** Find all anagram start indices  
+**Why Practice:** Fixed-size sliding window
+
+### 34. Group Anagrams
+**Link:** https://leetcode.com/problems/group-anagrams/  
+**Pattern:** Hash Map  
+**Topics:** Array, Hash Table, String, Sorting  
+**Description:** Group strings that are anagrams  
+**Why Practice:** Using sorted string as key
+
+### 35. Sort Colors
+**Link:** https://leetcode.com/problems/sort-colors/  
+**Pattern:** Two Pointers (Dutch Flag)  
+**Topics:** Array, Two Pointers, Sorting  
+**Description:** Sort array with 0s, 1s, 2s  
+**Why Practice:** Dutch national flag algorithm
+
+### 36. Search in Rotated Sorted Array
+**Link:** https://leetcode.com/problems/search-in-rotated-sorted-array/  
+**Pattern:** Modified Binary Search  
+**Topics:** Array, Binary Search  
+**Description:** Search in rotated array  
+**Why Practice:** Binary search variation
+
+### 37. Find First and Last Position of Element
+**Link:** https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/  
+**Pattern:** Binary Search  
+**Topics:** Array, Binary Search  
+**Description:** Find range of target  
+**Why Practice:** Binary search boundaries
+
+### 38. Rotate Array
+**Link:** https://leetcode.com/problems/rotate-array/  
+**Pattern:** Array Rotation  
+**Topics:** Array, Math, Two Pointers  
+**Description:** Rotate array k steps  
+**Why Practice:** Reversal technique
+
+### 39. Next Permutation
+**Link:** https://leetcode.com/problems/next-permutation/  
+**Pattern:** Array Manipulation  
+**Topics:** Array, Two Pointers  
+**Description:** Find next lexicographic permutation  
+**Why Practice:** Complex in-place manipulation
+
+### 40. 3Sum Closest
+**Link:** https://leetcode.com/problems/3sum-closest/  
+**Pattern:** Two Pointers  
+**Topics:** Array, Two Pointers, Sorting  
+**Description:** Find three numbers closest to target  
+**Why Practice:** Variation of 3Sum
+
+### 41. 4Sum
+**Link:** https://leetcode.com/problems/4sum/  
+**Pattern:** Two Pointers  
+**Topics:** Array, Two Pointers, Sorting  
+**Description:** Find all unique quadruplets  
+**Why Practice:** Extending k-sum pattern
+
+### 42. Remove Duplicates from Sorted Array II
+**Link:** https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/  
+**Pattern:** Two Pointers  
+**Topics:** Array, Two Pointers  
+**Description:** Allow at most two duplicates  
+**Why Practice:** Counting with two pointers
+
+### 43. Search a 2D Matrix II
+**Link:** https://leetcode.com/problems/search-a-2d-matrix-ii/  
+**Pattern:** Matrix Search  
+**Topics:** Array, Binary Search, Matrix, Divide and Conquer  
+**Description:** Search in row/column sorted matrix  
+**Why Practice:** Staircase search technique
+
+### 44. Set Matrix Zeroes
+**Link:** https://leetcode.com/problems/set-matrix-zeroes/  
+**Pattern:** Matrix Manipulation  
+**Topics:** Array, Hash Table, Matrix  
+**Description:** Set row/column to zero  
+**Why Practice:** In-place with O(1) space
+
+### 45. Longest Increasing Subsequence
+**Link:** https://leetcode.com/problems/longest-increasing-subsequence/  
+**Pattern:** Dynamic Programming + Binary Search  
+**Topics:** Array, Binary Search, Dynamic Programming  
+**Description:** Find LIS length  
+**Why Practice:** DP with binary search optimization
+
+### 46. Maximum Subarray
+**Link:** https://leetcode.com/problems/maximum-subarray/  
+**Pattern:** Kadane's Algorithm  
+**Topics:** Array, Divide and Conquer, Dynamic Programming  
+**Description:** Find contiguous subarray with largest sum  
+**Why Practice:** Kadane's algorithm
+
+### 47. Maximum Product Subarray
+**Link:** https://leetcode.com/problems/maximum-product-subarray/  
+**Pattern:** Dynamic Programming  
+**Topics:** Array, Dynamic Programming  
+**Description:** Find contiguous subarray with largest product  
+**Why Practice:** Tracking both min and max
+
+### 48. Kth Largest Element in an Array
+**Link:** https://leetcode.com/problems/kth-largest-element-in-an-array/  
+**Pattern:** QuickSelect  
+**Topics:** Array, Divide and Conquer, Sorting, Heap  
+**Description:** Find kth largest element  
+**Why Practice:** QuickSelect algorithm
+
+### 49. Find Peak Element
+**Link:** https://leetcode.com/problems/find-peak-element/  
+**Pattern:** Binary Search  
+**Topics:** Array, Binary Search  
+**Description:** Find peak element  
+**Why Practice:** Binary search on unsorted array
+
+### 50. Permutation in String
+**Link:** https://leetcode.com/problems/permutation-in-string/  
+**Pattern:** Sliding Window  
+**Topics:** String, Hash Table, Two Pointers, Sliding Window  
+**Description:** Check if s2 contains permutation of s1  
+**Why Practice:** Anagram detection with sliding window
+
+---
+
+## Hard Problems (15)
+
+### 51. Median of Two Sorted Arrays
+**Link:** https://leetcode.com/problems/median-of-two-sorted-arrays/  
+**Pattern:** Binary Search  
+**Topics:** Array, Binary Search, Divide and Conquer  
+**Description:** Find median of two sorted arrays  
+**Why Practice:** Binary search on two arrays, partitioning
+
+### 52. Trapping Rain Water
+**Link:** https://leetcode.com/problems/trapping-rain-water/  
+**Pattern:** Two Pointers  
+**Topics:** Array, Two Pointers, Dynamic Programming, Stack  
+**Description:** Calculate trapped rainwater  
+**Why Practice:** Multiple solution approaches
+
+### 53. First Missing Positive
+**Link:** https://leetcode.com/problems/first-missing-positive/  
+**Pattern:** Index Marking  
+**Topics:** Array, Hash Table  
+**Description:** Find smallest missing positive  
+**Why Practice:** O(1) space constant time technique
+
+### 54. Substring with Concatenation of All Words
+**Link:** https://leetcode.com/problems/substring-with-concatenation-of-all-words/  
+**Pattern:** Sliding Window + Hash Map  
+**Topics:** String, Hash Table, Sliding Window  
+**Description:** Find substring with all word concatenations  
+**Why Practice:** Complex sliding window
+
+### 55. Text Justification
+**Link:** https://leetcode.com/problems/text-justification/  
+**Pattern:** String Manipulation  
+**Topics:** Array, String, Simulation  
+**Description:** Justify text to fit width  
+**Why Practice:** Complex string formatting, edge cases
+
+### 56. Maximum Gap
+**Link:** https://leetcode.com/problems/maximum-gap/  
+**Pattern:** Bucket Sort  
+**Topics:** Array, Sorting, Bucket Sort  
+**Description:** Find maximum difference in sorted array  
+**Why Practice:** Bucket sort application
+
+### 57. Sliding Window Maximum
+**Link:** https://leetcode.com/problems/sliding-window-maximum/  
+**Pattern:** Monotonic Queue  
+**Topics:** Array, Queue, Sliding Window, Heap, Monotonic Queue  
+**Description:** Max in each sliding window  
+**Why Practice:** Monotonic deque technique
+
+### 58. Minimum Window Subsequence
+**Link:** https://leetcode.com/problems/minimum-window-subsequence/  
+**Pattern:** Two Pointers  
+**Topics:** String, Dynamic Programming, Sliding Window  
+**Description:** Find minimum window subsequence  
+**Why Practice:** Advanced two pointers
+
+### 59. Shortest Subarray with Sum at Least K
+**Link:** https://leetcode.com/problems/shortest-subarray-with-sum-at-least-k/  
+**Pattern:** Monotonic Queue + Prefix Sum  
+**Topics:** Array, Binary Search, Queue, Sliding Window, Heap, Prefix Sum, Monotonic Queue  
+**Description:** Find shortest subarray with sum >= K  
+**Why Practice:** Combining multiple techniques
+
+### 60. Count of Smaller Numbers After Self
+**Link:** https://leetcode.com/problems/count-of-smaller-numbers-after-self/  
+**Pattern:** Merge Sort / Binary Indexed Tree  
+**Topics:** Array, Binary Search, Divide and Conquer, Binary Indexed Tree, Segment Tree, Merge Sort  
+**Description:** Count smaller elements to the right  
+**Why Practice:** Advanced sorting techniques
+
+### 61. Longest Substring with At Most K Distinct Characters
+**Link:** https://leetcode.com/problems/longest-substring-with-at-most-k-distinct-characters/  
+**Pattern:** Sliding Window  
+**Topics:** String, Hash Table, Sliding Window  
+**Description:** Find longest substring with <= K distinct chars  
+**Why Practice:** Variable size sliding window (Premium problem)
+
+### 62. Subarrays with K Different Integers
+**Link:** https://leetcode.com/problems/subarrays-with-k-different-integers/  
+**Pattern:** Sliding Window  
+**Topics:** Array, Hash Table, Sliding Window, Counting  
+**Description:** Count subarrays with exactly K distinct  
+**Why Practice:** At most K - at most K-1 technique
+
+### 63. Minimum Number of K Consecutive Bit Flips
+**Link:** https://leetcode.com/problems/minimum-number-of-k-consecutive-bit-flips/  
+**Pattern:** Sliding Window + Greedy  
+**Topics:** Array, Bit Manipulation, Sliding Window, Prefix Sum  
+**Description:** Minimum flips to make all 1s  
+**Why Practice:** Greedy with sliding window
+
+### 64. Max Value of Equation
+**Link:** https://leetcode.com/problems/max-value-of-equation/  
+**Pattern:** Monotonic Queue  
+**Topics:** Array, Queue, Sliding Window, Heap, Monotonic Queue  
+**Description:** Maximize yi + yj + |xi - xj|  
+**Why Practice:** Monotonic queue optimization
+
+### 65. Longest Duplicate Substring
+**Link:** https://leetcode.com/problems/longest-duplicate-substring/  
+**Pattern:** Binary Search + Rabin-Karp  
+**Topics:** String, Binary Search, Sliding Window, Rolling Hash, Suffix Array  
+**Description:** Find longest duplicate substring  
+**Why Practice:** Rolling hash technique
+
+---
+
+## Practice Progression
+
+### Week 1-2: Foundation (Easy Problems)
+Focus on problems 1-20. Master basic patterns:
+- Two pointers (problems 5, 6, 7, 9, 10, 11)
+- Hash table basics (problems 1, 3, 4, 17)
+- String manipulation (problems 12, 13, 14)
+
+### Week 3-4: Intermediate (Easy + Medium)
+Add problems 21-35. Focus on:
+- Advanced two pointers (21, 22, 35)
+- Sliding window (23, 31, 33, 50)
+- Array manipulation (27, 28, 29)
+
+### Week 5-6: Advanced Medium
+Problems 36-50. Master:
+- Binary search variations (36, 37, 49)
+- Complex array manipulation (38, 39, 44)
+- DP basics (45, 46, 47)
+
+### Week 7-8: Hard Problems
+Problems 51-65. Challenge yourself:
+- Start with 51, 52, 53 (most common in interviews)
+- Move to 57, 60 (advanced techniques)
+- Tackle 65 (combines multiple concepts)
+
+---
+
+## Similar Problems
+
+### Two Pointers Family
+- Two Sum II (Easy)
+- 4Sum (Medium)
+- Trapping Rain Water (Hard)
+
+### Sliding Window Family
+- Minimum Size Subarray Sum (Medium)
+- Fruits Into Baskets (Medium)
+- Longest Repeating Character Replacement (Medium)
+
+### Array Manipulation Family
+- Merge Intervals (Medium)
+- Insert Interval (Medium)
+- Meeting Rooms II (Medium)
+
+---
+
+## Tips for Success
+
+1. **Start Easy:** Don't skip easy problems - they build intuition
+2. **Identify Patterns:** Tag problems by pattern as you solve them
+3. **Time Yourself:** Easy (15min), Medium (30min), Hard (45min)
+4. **Review Solutions:** Learn from editorial and top solutions
+5. **Revisit Problems:** Solve again after 1 week, 1 month
+6. **Track Progress:** Use a spreadsheet to mark completed problems
+
+---
+
+**Total Practice Time Estimate:** 60-80 hours for all 65 problems  
+**Recommended Pace:** 5-8 problems per week  
+**Mastery Timeline:** 8-12 weeks with consistent practice
+

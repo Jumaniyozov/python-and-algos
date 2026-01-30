@@ -1136,3 +1136,592 @@ for i in range(len(nums)):
 8. **Use deque for queue**, not list
 
 Practice these patterns until they become second nature!
+
+---
+
+## LeetCode Practice Problems
+
+### 📊 Problem Statistics
+- **Total Problems:** 60+
+- **Easy:** 15 problems
+- **Medium:** 30 problems
+- **Hard:** 15 problems
+- **Estimated Time:** 40-55 hours
+
+---
+
+## Easy Problems (15)
+
+### 1. Valid Parentheses
+**Link:** https://leetcode.com/problems/valid-parentheses/  
+**Pattern:** Stack  
+**Topics:** String, Stack  
+**Description:** Check if parentheses are valid  
+**Why Practice:** Classic stack application
+
+### 2. Implement Queue using Stacks
+**Link:** https://leetcode.com/problems/implement-queue-using-stacks/  
+**Pattern:** Design  
+**Topics:** Stack, Design, Queue  
+**Description:** Implement queue with two stacks  
+**Why Practice:** Understanding data structure relationships
+
+### 3. Implement Stack using Queues
+**Link:** https://leetcode.com/problems/implement-stack-using-queues/  
+**Pattern:** Design  
+**Topics:** Stack, Design, Queue  
+**Description:** Implement stack with queues  
+**Why Practice:** Inverse relationship
+
+### 4. Min Stack
+**Link:** https://leetcode.com/problems/min-stack/  
+**Pattern:** Design  
+**Topics:** Stack, Design  
+**Description:** Stack with O(1) getMin()  
+**Why Practice:** Tracking auxiliary information
+
+### 5. Backspace String Compare
+**Link:** https://leetcode.com/problems/backspace-string-compare/  
+**Pattern:** Stack  
+**Topics:** Two Pointers, String, Stack, Simulation  
+**Description:** Compare strings with backspaces  
+**Why Practice:** Stack for character deletion
+
+### 6. Next Greater Element I
+**Link:** https://leetcode.com/problems/next-greater-element-i/  
+**Pattern:** Monotonic Stack  
+**Topics:** Array, Hash Table, Stack, Monotonic Stack  
+**Description:** Find next greater element  
+**Why Practice:** Introduction to monotonic stack
+
+### 7. Baseball Game
+**Link:** https://leetcode.com/problems/baseball-game/  
+**Pattern:** Stack  
+**Topics:** Array, Stack, Simulation  
+**Description:** Calculate score with operations  
+**Why Practice:** Stack operations practice
+
+### 8. Remove All Adjacent Duplicates In String
+**Link:** https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/  
+**Pattern:** Stack  
+**Topics:** String, Stack  
+**Description:** Remove adjacent duplicates  
+**Why Practice:** Stack for matching
+
+### 9. Remove Outermost Parentheses
+**Link:** https://leetcode.com/problems/remove-outermost-parentheses/  
+**Pattern:** Stack  
+**Topics:** String, Stack  
+**Description:** Remove outer parentheses  
+**Why Practice:** Tracking depth with stack
+
+### 10. Make The String Great
+**Link:** https://leetcode.com/problems/make-the-string-great/  
+**Pattern:** Stack  
+**Topics:** String, Stack  
+**Description:** Remove adjacent bad pairs  
+**Why Practice:** Stack matching pattern
+
+### 11. Crawler Log Folder
+**Link:** https://leetcode.com/problems/crawler-log-folder/  
+**Pattern:** Stack  
+**Topics:** Array, String, Stack  
+**Description:** Track folder operations  
+**Why Practice:** Stack for path tracking
+
+### 12. Maximum Nesting Depth of Parentheses
+**Link:** https://leetcode.com/problems/maximum-nesting-depth-of-the-parentheses/  
+**Pattern:** Stack / Counter  
+**Topics:** String, Stack  
+**Description:** Find maximum depth  
+**Why Practice:** Depth tracking
+
+### 13. Build an Array With Stack Operations
+**Link:** https://leetcode.com/problems/build-an-array-with-stack-operations/  
+**Pattern:** Stack Simulation  
+**Topics:** Array, Stack, Simulation  
+**Description:** Generate push/pop sequence  
+**Why Practice:** Stack operation simulation
+
+### 14. Final Prices With a Special Discount
+**Link:** https://leetcode.com/problems/final-prices-with-a-special-discount-in-a-shop/  
+**Pattern:** Monotonic Stack  
+**Topics:** Array, Stack, Monotonic Stack  
+**Description:** Apply discounts using next smaller  
+**Why Practice:** Monotonic stack variation
+
+### 15. Number of Recent Calls
+**Link:** https://leetcode.com/problems/number-of-recent-calls/  
+**Pattern:** Queue  
+**Topics:** Design, Queue, Data Stream  
+**Description:** Track requests in time window  
+**Why Practice:** Queue for sliding window
+
+---
+
+## Medium Problems (30)
+
+### 16. Evaluate Reverse Polish Notation
+**Link:** https://leetcode.com/problems/evaluate-reverse-polish-notation/  
+**Pattern:** Stack  
+**Topics:** Array, Math, Stack  
+**Description:** Evaluate postfix expression  
+**Why Practice:** Stack for expression evaluation
+
+### 17. Daily Temperatures
+**Link:** https://leetcode.com/problems/daily-temperatures/  
+**Pattern:** Monotonic Stack  
+**Topics:** Array, Stack, Monotonic Stack  
+**Description:** Days until warmer temperature  
+**Why Practice:** Classic monotonic stack problem
+
+### 18. Next Greater Element II
+**Link:** https://leetcode.com/problems/next-greater-element-ii/  
+**Pattern:** Monotonic Stack  
+**Topics:** Array, Stack, Monotonic Stack  
+**Description:** Next greater in circular array  
+**Why Practice:** Circular array with monotonic stack
+
+### 19. Online Stock Span
+**Link:** https://leetcode.com/problems/online-stock-span/  
+**Pattern:** Monotonic Stack  
+**Topics:** Stack, Design, Monotonic Stack, Data Stream  
+**Description:** Calculate stock price spans  
+**Why Practice:** Real-time monotonic stack
+
+### 20. Decode String
+**Link:** https://leetcode.com/problems/decode-string/  
+**Pattern:** Stack  
+**Topics:** String, Stack, Recursion  
+**Description:** Decode encoded string  
+**Why Practice:** Nested structure parsing
+
+### 21. Remove K Digits
+**Link:** https://leetcode.com/problems/remove-k-digits/  
+**Pattern:** Monotonic Stack  
+**Topics:** String, Stack, Greedy, Monotonic Stack  
+**Description:** Remove k digits to minimize number  
+**Why Practice:** Greedy with monotonic stack
+
+### 22. Asteroid Collision
+**Link:** https://leetcode.com/problems/asteroid-collision/  
+**Pattern:** Stack  
+**Topics:** Array, Stack, Simulation  
+**Description:** Simulate asteroid collisions  
+**Why Practice:** Stack for collision detection
+
+### 23. Car Fleet
+**Link:** https://leetcode.com/problems/car-fleet/  
+**Pattern:** Monotonic Stack  
+**Topics:** Array, Stack, Sorting, Monotonic Stack  
+**Description:** Count car fleets  
+**Why Practice:** Complex monotonic stack
+
+### 24. Simplify Path
+**Link:** https://leetcode.com/problems/simplify-path/  
+**Pattern:** Stack  
+**Topics:** String, Stack  
+**Description:** Simplify Unix file path  
+**Why Practice:** Stack for path resolution
+
+### 25. Validate Stack Sequences
+**Link:** https://leetcode.com/problems/validate-stack-sequences/  
+**Pattern:** Stack Simulation  
+**Topics:** Array, Stack, Simulation  
+**Description:** Validate push/pop sequence  
+**Why Practice:** Stack sequence validation
+
+### 26. 132 Pattern
+**Link:** https://leetcode.com/problems/132-pattern/  
+**Pattern:** Monotonic Stack  
+**Topics:** Array, Binary Search, Stack, Monotonic Stack, Ordered Set  
+**Description:** Find 132 pattern in array  
+**Why Practice:** Complex pattern detection
+
+### 27. Remove All Adjacent Duplicates In String II
+**Link:** https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string-ii/  
+**Pattern:** Stack with Count  
+**Topics:** String, Stack  
+**Description:** Remove k adjacent duplicates  
+**Why Practice:** Stack with frequency tracking
+
+### 28. Shortest Unsorted Continuous Subarray
+**Link:** https://leetcode.com/problems/shortest-unsorted-continuous-subarray/  
+**Pattern:** Monotonic Stack  
+**Topics:** Array, Two Pointers, Stack, Greedy, Sorting, Monotonic Stack  
+**Description:** Find shortest subarray to sort  
+**Why Practice:** Multiple solution approaches
+
+### 29. Number of Visible People in a Queue
+**Link:** https://leetcode.com/problems/number-of-visible-people-in-a-queue/  
+**Pattern:** Monotonic Stack  
+**Topics:** Array, Stack, Monotonic Stack  
+**Description:** Count visible people to the right  
+**Why Practice:** Visibility with monotonic stack
+
+### 30. Sum of Subarray Minimums
+**Link:** https://leetcode.com/problems/sum-of-subarray-minimums/  
+**Pattern:** Monotonic Stack  
+**Topics:** Array, Dynamic Programming, Stack, Monotonic Stack  
+**Description:** Sum of minimums of all subarrays  
+**Why Practice:** Advanced monotonic stack application
+
+### 31. Score of Parentheses
+**Link:** https://leetcode.com/problems/score-of-parentheses/  
+**Pattern:** Stack  
+**Topics:** String, Stack  
+**Description:** Calculate parentheses score  
+**Why Practice:** Nested structure scoring
+
+### 32. Minimum Add to Make Parentheses Valid
+**Link:** https://leetcode.com/problems/minimum-add-to-make-parentheses-valid/  
+**Pattern:** Stack / Counter  
+**Topics:** String, Stack, Greedy  
+**Description:** Minimum additions for validity  
+**Why Practice:** Stack for balance tracking
+
+### 33. Design Circular Queue
+**Link:** https://leetcode.com/problems/design-circular-queue/  
+**Pattern:** Design  
+**Topics:** Array, Linked List, Design, Queue  
+**Description:** Implement circular queue  
+**Why Practice:** Understanding circular buffer
+
+### 34. Design Circular Deque
+**Link:** https://leetcode.com/problems/design-circular-deque/  
+**Pattern:** Design  
+**Topics:** Array, Linked List, Design, Queue  
+**Description:** Implement circular deque  
+**Why Practice:** Bidirectional queue
+
+### 35. Flatten Nested List Iterator
+**Link:** https://leetcode.com/problems/flatten-nested-list-iterator/  
+**Pattern:** Stack  
+**Topics:** Stack, Tree, Depth-First Search, Design, Queue, Iterator  
+**Description:** Iterator for nested list  
+**Why Practice:** Stack for nested iteration
+
+### 36. Mini Parser
+**Link:** https://leetcode.com/problems/mini-parser/  
+**Pattern:** Stack  
+**Topics:** String, Stack, Depth-First Search  
+**Description:** Parse nested integer list  
+**Why Practice:** Complex parsing with stack
+
+### 37. Exclusive Time of Functions
+**Link:** https://leetcode.com/problems/exclusive-time-of-functions/  
+**Pattern:** Stack  
+**Topics:** Array, Stack  
+**Description:** Calculate exclusive execution time  
+**Why Practice:** Stack for time tracking
+
+### 38. Binary Tree Inorder Traversal (iterative)
+**Link:** https://leetcode.com/problems/binary-tree-inorder-traversal/  
+**Pattern:** Stack  
+**Topics:** Stack, Tree, Depth-First Search, Binary Tree  
+**Description:** Inorder traversal without recursion  
+**Why Practice:** Stack for tree traversal
+
+### 39. Binary Tree Preorder Traversal (iterative)
+**Link:** https://leetcode.com/problems/binary-tree-preorder-traversal/  
+**Pattern:** Stack  
+**Topics:** Stack, Tree, Depth-First Search, Binary Tree  
+**Description:** Preorder traversal iteratively  
+**Why Practice:** Stack traversal pattern
+
+### 40. Binary Tree Postorder Traversal (iterative)
+**Link:** https://leetcode.com/problems/binary-tree-postorder-traversal/  
+**Pattern:** Stack  
+**Topics:** Stack, Tree, Depth-First Search, Binary Tree  
+**Description:** Postorder traversal iteratively  
+**Why Practice:** Complex stack traversal
+
+### 41. Maximum Frequency Stack
+**Link:** https://leetcode.com/problems/maximum-frequency-stack/  
+**Pattern:** Stack + Hash Map  
+**Topics:** Hash Table, Stack, Design, Ordered Set  
+**Description:** Stack that pops most frequent  
+**Why Practice:** Complex data structure design
+
+### 42. Minimum Remove to Make Valid Parentheses
+**Link:** https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/  
+**Pattern:** Stack  
+**Topics:** String, Stack  
+**Description:** Remove minimum to make valid  
+**Why Practice:** Two-pass stack technique
+
+### 43. Check If Word Is Valid After Substitutions
+**Link:** https://leetcode.com/problems/check-if-word-is-valid-after-substitutions/  
+**Pattern:** Stack  
+**Topics:** String, Stack  
+**Description:** Check validity after substitutions  
+**Why Practice:** Pattern matching with stack
+
+### 44. Number of Atoms
+**Link:** https://leetcode.com/problems/number-of-atoms/  
+**Pattern:** Stack  
+**Topics:** Hash Table, String, Stack, Sorting  
+**Description:** Parse chemical formula  
+**Why Practice:** Complex nested parsing
+
+### 45. Remove Duplicate Letters
+**Link:** https://leetcode.com/problems/remove-duplicate-letters/  
+**Pattern:** Monotonic Stack + Hash  
+**Topics:** String, Stack, Greedy, Monotonic Stack  
+**Description:** Remove duplicates, keep lexicographically smallest  
+**Why Practice:** Greedy with monotonic stack
+
+---
+
+## Hard Problems (15)
+
+### 46. Trapping Rain Water
+**Link:** https://leetcode.com/problems/trapping-rain-water/  
+**Pattern:** Stack / Two Pointers  
+**Topics:** Array, Two Pointers, Dynamic Programming, Stack, Monotonic Stack  
+**Description:** Calculate trapped rainwater  
+**Why Practice:** Multiple solution approaches, common interview problem
+
+### 47. Largest Rectangle in Histogram
+**Link:** https://leetcode.com/problems/largest-rectangle-in-histogram/  
+**Pattern:** Monotonic Stack  
+**Topics:** Array, Stack, Monotonic Stack  
+**Description:** Find largest rectangle in histogram  
+**Why Practice:** Classic monotonic stack problem
+
+### 48. Maximal Rectangle
+**Link:** https://leetcode.com/problems/maximal-rectangle/  
+**Pattern:** Monotonic Stack  
+**Topics:** Array, Dynamic Programming, Stack, Matrix, Monotonic Stack  
+**Description:** Largest rectangle in binary matrix  
+**Why Practice:** Extension of histogram problem
+
+### 49. Basic Calculator
+**Link:** https://leetcode.com/problems/basic-calculator/  
+**Pattern:** Stack  
+**Topics:** Math, String, Stack, Recursion  
+**Description:** Evaluate expression with parentheses  
+**Why Practice:** Complex expression parsing
+
+### 50. Basic Calculator II
+**Link:** https://leetcode.com/problems/basic-calculator-ii/  
+**Pattern:** Stack  
+**Topics:** Math, String, Stack  
+**Description:** Evaluate with +, -, *, /  
+**Why Practice:** Operator precedence handling
+
+### 51. Basic Calculator III
+**Link:** https://leetcode.com/problems/basic-calculator-iii/  
+**Pattern:** Stack  
+**Topics:** Math, String, Stack, Recursion  
+**Description:** Complete calculator  
+**Why Practice:** Combining all calculator concepts (Premium)
+
+### 52. Sliding Window Maximum
+**Link:** https://leetcode.com/problems/sliding-window-maximum/  
+**Pattern:** Monotonic Deque  
+**Topics:** Array, Queue, Sliding Window, Heap, Monotonic Queue  
+**Description:** Max in each sliding window  
+**Why Practice:** Classic monotonic deque problem
+
+### 53. Longest Valid Parentheses
+**Link:** https://leetcode.com/problems/longest-valid-parentheses/  
+**Pattern:** Stack / DP  
+**Topics:** String, Dynamic Programming, Stack  
+**Description:** Length of longest valid parentheses  
+**Why Practice:** Complex validity checking
+
+### 54. Reverse Substrings Between Each Pair of Parentheses
+**Link:** https://leetcode.com/problems/reverse-substrings-between-each-pair-of-parentheses/  
+**Pattern:** Stack  
+**Topics:** String, Stack  
+**Description:** Reverse within parentheses  
+**Why Practice:** Nested reversal operations
+
+### 55. Tag Validator
+**Link:** https://leetcode.com/problems/tag-validator/  
+**Pattern:** Stack  
+**Topics:** String, Stack  
+**Description:** Validate XML-like tags  
+**Why Practice:** Complex nested structure validation
+
+### 56. Car Fleet II
+**Link:** https://leetcode.com/problems/car-fleet-ii/  
+**Pattern:** Monotonic Stack  
+**Topics:** Array, Math, Stack, Heap, Monotonic Stack  
+**Description:** Time when cars collide  
+**Why Practice:** Advanced monotonic stack with simulation
+
+### 57. Find the Most Competitive Subsequence
+**Link:** https://leetcode.com/problems/find-the-most-competitive-subsequence/  
+**Pattern:** Monotonic Stack  
+**Topics:** Array, Stack, Greedy, Monotonic Stack  
+**Description:** Find lexicographically smallest subsequence  
+**Why Practice:** Greedy with monotonic stack
+
+### 58. Shortest Subarray with Sum at Least K
+**Link:** https://leetcode.com/problems/shortest-subarray-with-sum-at-least-k/  
+**Pattern:** Monotonic Deque + Prefix Sum  
+**Topics:** Array, Binary Search, Queue, Sliding Window, Heap, Prefix Sum, Monotonic Queue  
+**Description:** Shortest subarray with sum >= K  
+**Why Practice:** Combining multiple advanced techniques
+
+### 59. Constrained Subsequence Sum
+**Link:** https://leetcode.com/problems/constrained-subsequence-sum/  
+**Pattern:** Monotonic Deque + DP  
+**Topics:** Array, Dynamic Programming, Queue, Sliding Window, Heap, Monotonic Queue  
+**Description:** Max sum with constraint  
+**Why Practice:** DP optimization with monotonic deque
+
+### 60. Minimum Cost Tree From Leaf Values
+**Link:** https://leetcode.com/problems/minimum-cost-tree-from-leaf-values/  
+**Pattern:** Monotonic Stack  
+**Topics:** Array, Dynamic Programming, Stack, Greedy, Monotonic Stack  
+**Description:** Build tree with minimum cost  
+**Why Practice:** Greedy with monotonic stack
+
+---
+
+## Practice Progression
+
+### Week 1: Stack Basics (Easy 1-10)
+Master fundamental stack operations:
+- Valid parentheses (1)
+- Stack design (2, 3, 4)
+- Basic stack operations (7, 8, 9, 10)
+
+### Week 2: Queue & Advanced Easy (Easy 11-15)
+Complete easy problems:
+- Path tracking (11)
+- Queue applications (15)
+- Simple monotonic stack (6, 14)
+
+### Week 3-4: Medium Basics (Medium 16-25)
+Core medium patterns:
+- Expression evaluation (16)
+- Monotonic stack (17, 18, 19)
+- Stack simulation (24, 25)
+
+### Week 5-6: Advanced Medium (Medium 26-35)
+Complex patterns:
+- Pattern detection (26)
+- Design problems (33, 34, 41)
+- Advanced monotonic stack (30, 45)
+
+### Week 7: Tree Traversal (Medium 36-40)
+Stack for tree operations:
+- Iterative traversals (38, 39, 40)
+- Complex parsing (36, 44)
+
+### Week 8-9: Hard Problems (Hard 46-60)
+Master hard patterns:
+- **Trapping Rain Water (46)** - MUST KNOW
+- **Largest Rectangle (47)** - MUST KNOW
+- **Maximal Rectangle (48)** - Extension
+- Calculators (49, 50, 51)
+- **Sliding Window Maximum (52)** - MUST KNOW
+- Advanced monotonic (56, 57, 59, 60)
+
+---
+
+## Pattern Mastery Guide
+
+### Monotonic Stack Pattern
+**Key Problems:** 17, 18, 21, 23, 26, 30, 45, 47, 48
+**Template:**
+```python
+def monotonic_stack(arr):
+    stack = []  # Stores indices
+    result = []
+    for i, val in enumerate(arr):
+        while stack and arr[stack[-1]] < val:
+            idx = stack.pop()
+            # Process: found next greater for arr[idx]
+        stack.append(i)
+    return result
+```
+
+### Monotonic Deque Pattern
+**Key Problems:** 52, 58, 59
+**When to Use:** Sliding window with min/max queries
+**Key Insight:** Maintain decreasing (for max) or increasing (for min) order
+
+### Expression Evaluation
+**Key Problems:** 16, 20, 49, 50, 51
+**Patterns:**
+- Postfix: Single stack
+- Infix: Operator stack + operand stack or output
+- With parentheses: Nested evaluation
+
+### Stack for Tree Traversal
+**Key Problems:** 38, 39, 40
+**Inorder Template:**
+```python
+def inorder(root):
+    stack, result = [], []
+    curr = root
+    while curr or stack:
+        while curr:
+            stack.append(curr)
+            curr = curr.left
+        curr = stack.pop()
+        result.append(curr.val)
+        curr = curr.right
+    return result
+```
+
+---
+
+## Must-Know Problems (Top 12)
+
+1. **Valid Parentheses (1)** - MUST KNOW
+2. **Min Stack (4)** - MUST KNOW
+3. **Daily Temperatures (17)** - MUST KNOW for monotonic stack
+4. **Evaluate RPN (16)** - Common interview problem
+5. **Decode String (20)** - Nested structures
+6. **Asteroid Collision (22)** - Simulation with stack
+7. **Trapping Rain Water (46)** - VERY COMMON, multiple approaches
+8. **Largest Rectangle in Histogram (47)** - CLASSIC monotonic stack
+9. **Basic Calculator (49/50)** - Shows mastery
+10. **Sliding Window Maximum (52)** - MUST KNOW monotonic deque
+11. **Design Circular Queue (33)** - System design
+12. **Maximum Frequency Stack (41)** - Advanced design
+
+---
+
+## Common Mistakes
+
+1. **Not checking empty stack:** Always check before pop/peek
+2. **Forgetting to track indices:** Often need both value and index
+3. **Wrong monotonic order:** Increasing vs decreasing stack
+4. **Not handling edge cases:** Empty input, single element
+5. **Infinite loops:** Ensure progress in while loops
+6. **Memory issues:** Clean up stack when done
+
+---
+
+## Interview Tips
+
+### Monotonic Stack Recognition
+**Keywords:** "next greater", "next smaller", "largest", "histogram", "visible"
+**Pattern:** When you need to find next/previous greater/smaller element
+
+### Time Allocation
+- Easy: 10-15 minutes
+- Medium: 20-30 minutes
+- Hard: 35-50 minutes
+
+### Strategy
+1. **Draw examples:** Visualize stack state
+2. **State clearly:** What does stack store - values or indices?
+3. **Handle edge cases:** Empty, single element, all same
+4. **Discuss trade-offs:** Stack vs two pointers vs DP
+
+---
+
+**Total Practice Time:** 40-55 hours  
+**Recommended Pace:** 6-8 problems per week  
+**Mastery Timeline:** 8-10 weeks
+
+Remember: Stack/Queue problems are about choosing the right data structure. Monotonic stack is a game-changer!
+
